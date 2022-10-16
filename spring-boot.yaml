@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: gcr.io/<project-id>/springboot:7
+        image: 237641461296.dkr.ecr.ap-south-1.amazonaws.com/mydemorepo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
