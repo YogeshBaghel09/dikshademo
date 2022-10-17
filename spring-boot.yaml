@@ -7,8 +7,6 @@ spec:
   selector:
     matchLabels:
       app: spring-boot-app
-    strategy:
-      type: RollingUpdate
   template:
     metadata:
       labels:
